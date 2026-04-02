@@ -23,6 +23,9 @@ html {
     font-size: 1em;
 }
 
+h1 {font-size: 1.8rem;}
+h2 {font-size: 1.5rem;}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -75,4 +78,19 @@ body {
 
 #selecionar-lugar {
     height: 100vh;
+    padding: 10px;
+}
+
+#selecionar-lugar h1 {
+    margin-bottom: 15px;
+}
+
+.continentes {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+}
+
+li {
+    list-style-position: inside;
 }
