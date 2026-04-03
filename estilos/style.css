@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 :root {
@@ -48,14 +48,14 @@ header {
     align-items: center;
 }
 
-header h1 {
-    flex: 0 0 content;
-    font-size: 2rem;
+header > a {
+    flex: 1 0 content;
+    display: flex;
+    justify-content: center;
 }
 
-header h1 > a {
-    text-decoration: none;
-    color: var(--texto-cor);
+header a > img {
+    width: 90px;
 }
 
 header nav {
@@ -94,11 +94,8 @@ header li > a {
     align-items: center;
 }
 
-.mensagem h1 {
-    font-size: 2rem;
-    text-align: center;
-    border-bottom: 2px solid var(--texto-cor);
-    padding: 0 5px;
+.yvy-logo {
+    width: 100px;
 }
 
 .mensagem h2 {
@@ -186,10 +183,7 @@ footer {
     padding: 15px;
 }
 
-footer h1 {
-    width: fit-content;
+footer img {
+    display: block;
     margin: 0 auto 10px auto;
-    padding: 0 5px;
-    text-align: center;
-    border-bottom: 2px solid var(--texto-cor);
 }
