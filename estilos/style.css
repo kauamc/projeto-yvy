@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid darkgrey;
+    
 }
 
 :root {
@@ -81,7 +81,6 @@ header li > a {
 }
 
 .mensagem {
-    width: 90%;
     flex: 1 0 auto;
     display: flex;
     flex-flow: column;
@@ -97,6 +96,7 @@ header li > a {
 }
 
 .mensagem h2 {
+    width: 90%;
     font-size: 1.5rem;
     text-align: center;
 }
@@ -135,6 +135,14 @@ header li > a {
     padding-bottom: 10px;
 }
 
+.continente {
+    margin-bottom: 2em;
+}
+
+.continente:last-child {
+    margin-bottom: 0;
+}
+
 .continente li {
     list-style-position: inside;
     margin-left: 15px;
@@ -143,6 +151,12 @@ header li > a {
 .indisponivel {
     color: rgb(185, 20, 20);
     cursor: not-allowed;
+}
+
+.indisponivel::after {
+    content: ' (em breve)';
+    color: var(--texto-cor);
+    opacity: 0.3;
 }
 
 div.topo {
