@@ -7,18 +7,55 @@
    viewBox="0 0 195.98381 72.763504"
    version="1.1"
    id="svg1"
+   sodipodi:docname="yvy-logo.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.69495818"
+     inkscape:cx="352.5392"
+     inkscape:cy="76.98305"
+     inkscape:window-width="1600"
+     inkscape:window-height="829"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
   <defs
-     id="defs1" />
+     id="defs1">
+    <rect
+       x="301.68313"
+       y="78.854782"
+       width="106.32677"
+       height="21.875843"
+       id="rect1" />
+  </defs>
   <g
      id="layer1"
-     transform="translate(339.07389,-100.36766)">
+     transform="translate(339.0739,-100.36767)"
+     inkscape:export-filename="yvy-logo.svg"
+     inkscape:export-xdpi="25.920509"
+     inkscape:export-ydpi="25.920509">
     <path
        style="font-size:104.064px;font-family:'Black Ops One';-inkscape-font-specification:'Black Ops One';stroke-width:8.67199"
        d="m -324.54152,173.13116 27.33713,-72.7635 h 21.59531 l -27.38794,72.7635 z m 5.38613,-23.32294 -19.9185,-49.44056 h 22.40831 l 7.57106,21.951 z m 67.27575,4.52232 -20.17256,-53.96288 h 22.30669 l 19.20712,53.96288 z m 23.62781,-2.99794 -10.06087,-28.55663 7.26619,-22.40831 h 20.98556 z m 36.22932,21.79856 27.33713,-72.7635 h 21.59531 l -27.38793,72.7635 z m 5.38613,-23.32294 -19.9185,-49.44056 h 22.40831 l 7.57106,21.951 z"
        id="text2"
-       aria-label="yvy" 
-       fill="black"/>
+       aria-label="yvy" />
   </g>
+  <text
+     xml:space="preserve"
+     transform="scale(0.26458333)"
+     id="text1"
+     style="fill:#000000;text-orientation:auto;-inkscape-font-specification:'Black Ops One';font-family:'Black Ops One';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1)" />
 </svg>
