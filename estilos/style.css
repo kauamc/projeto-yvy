@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Miranda+Sans:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +31,7 @@ h1 {font-size: 1.8rem;}
 h2 {font-size: 1.5rem;}
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Miranda Sans', 'Inter', 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Header */
@@ -115,7 +117,7 @@ header li > a {
     background-repeat: repeat-x;
     background-size: var(--bh-width) 100%;
 
-    animation: bgloop 20s linear infinite;
+    animation: bgloop 30s linear infinite;
 }
 
 @keyframes bgloop {
@@ -124,21 +126,32 @@ header li > a {
 }
 
 .mensagem {
+    width: 90%;
     flex: 1 0 auto;
     display: flex;
     flex-flow: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    gap: 15px;
 }
 
 .yvy-logo {
-    width: 100px;
+    width: 230px;
 }
 
 .mensagem h2 {
-    width: 90%;
+    width: 100%;
     font-size: 1.5rem;
-    text-align: center;
+    font-weight: 300;
+    text-align: right;
+    border-right: 1px solid var(--texto-cor);
+    padding-right: 8px;
+    text-transform: uppercase;
+}
+
+.mensagem span {
+    background-color: var(--texto-cor);
+    color: var(--texto-cor-alt);
 }
 
 .botao-iniciar {
@@ -149,7 +162,8 @@ header li > a {
 }
 
 .botao-iniciar a {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    font-weight: bold;
     color: var(--texto-cor);
     padding: 10px;
     border-radius: 15px;
@@ -225,4 +239,8 @@ footer {
 footer img {
     display: block;
     margin: 0 auto 10px auto;
+}
+
+footer > .yvy-logo {
+    width: 100px;
 }
