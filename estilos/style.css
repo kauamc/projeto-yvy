@@ -97,13 +97,30 @@ header li > a {
 
 /* Boas-vindas */
 
+#svg {
+    fill: lightgrey;
+}
+
 #boas-vindas {
+    --bh-width: 200vh;
+
     width: 100%;
     height: 100dvh;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+
+    background-image: url(../mobile-bg.svg);
+    background-repeat: repeat-x;
+    background-size: var(--bh-width) 100%;
+
+    animation: bgloop 20s linear infinite;
+}
+
+@keyframes bgloop {
+    from {background-position: 0 0;}
+    to {background-position: calc(-1 * var(--bh-width)) 0;}
 }
 
 .mensagem {
