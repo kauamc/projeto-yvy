@@ -99,10 +99,6 @@ header li > a {
 
 /* Boas-vindas */
 
-#svg {
-    fill: lightgrey;
-}
-
 #boas-vindas {
     --bh-width: 200vh;
 
@@ -112,6 +108,7 @@ header li > a {
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    /* background-color: rgb(174, 199, 230); */
 
     background-image: url(../mobile-bg.svg);
     background-repeat: repeat-x;
@@ -144,7 +141,7 @@ header li > a {
     font-size: 1.5rem;
     font-weight: 300;
     text-align: right;
-    border-right: 1px solid var(--texto-cor);
+    border-right: 2px solid var(--texto-cor);
     padding-right: 8px;
     text-transform: uppercase;
 }
@@ -162,12 +159,18 @@ header li > a {
 }
 
 .botao-iniciar a {
-    font-size: 1.7rem;
-    font-weight: bold;
-    color: var(--texto-cor);
-    padding: 10px;
-    border-radius: 15px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--texto-cor-alt);
+    background-color: var(--texto-cor);
+    padding: 15px;
+    border-radius: 30px;
     text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.botao-iniciar a:hover {
+    transform: scale(1.05);
 }
 
 /* Seleção de país */
