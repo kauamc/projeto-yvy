@@ -15,7 +15,7 @@
 
     --fundo-pagina: #fff;
     --fundo-header: #fff;
-    --fundo-footer: #fff;
+    --fundo-footer: #000;
 
     --texto-cor: black;
     --texto-cor-alt: white;
@@ -219,6 +219,9 @@ header li > a {
 
 div.topo {
     width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
 }
 
 .topo > a {
@@ -226,24 +229,23 @@ div.topo {
     width: fit-content;
     margin: auto;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
+    border-radius: 30px;
     text-decoration: none;
-    color: var(--texto-cor);
+    color: var(--texto-cor-alt);
+    background-color: var(--texto-cor);
 }
 
 /* Footer */
 
 footer {
     background-color: var(--fundo-footer);
-    color: var(--texto-cor);
+    color: var(--texto-cor-alt);
     padding: 15px;
 }
 
-footer img {
-    display: block;
-    margin: 0 auto 10px auto;
-}
-
 footer > .yvy-logo {
-    width: 100px;
+    display: block;
+    margin: 0 auto 15px auto;
+    width: 90px;
 }
