@@ -19,6 +19,8 @@
 
     --texto-cor: black;
     --texto-cor-alt: white;
+
+    --texto-fonte: 'Miranda Sans', 'Inter', 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html {
@@ -31,7 +33,7 @@ h1 {font-size: 1.8rem;}
 h2 {font-size: 1.5rem;}
 
 body {
-    font-family: 'Miranda Sans', 'Inter', 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--texto-fonte);
 }
 
 /* Header */

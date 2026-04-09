@@ -1,0 +1,59 @@
+#header-fixo {
+    position: initial;
+}
+
+main {
+    width: 100%;
+    height: calc(100dvh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#caixa-suporte {
+    width: 100%;
+    padding: 15px;
+}
+
+#caixa-suporte h1 {
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+form {
+    margin-top: 1em;
+}
+
+form > div {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 15px;
+}
+
+form > div > input, form > div > textarea {
+    font-size: 1.2rem;
+    padding: 8px;
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+    margin-top: 0.2em;
+}
+
+form > div > input:focus, form > div > textarea:focus {
+    outline: none;
+    border-color: var(--texto-cor);
+}
+
+form > div > textarea {
+    resize: vertical;
+    min-height: 250px;
+    font-family: var(--texto-fonte);
+}
+
+form > div > input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    background-color: var(--texto-cor);
+    color: var(--texto-cor-alt);
+    border: 1px solid #bdbdbd;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
