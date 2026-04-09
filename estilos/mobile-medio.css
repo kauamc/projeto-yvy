@@ -1,0 +1,11 @@
+header {
+    padding: 0 25px;
+}
+
+nav ul {
+    justify-content: flex-end;
+}
+
+.continentes ul {
+    columns: 2;
+}
