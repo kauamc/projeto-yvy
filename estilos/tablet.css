@@ -11,12 +11,12 @@
     color: var(--texto-cor);
     text-align: center;
     text-transform: uppercase;
-    z-index: 15;
+    z-index: 5;
 }
 
 #mapa-interativo .botao-iniciar {
     grid-area: 3 / 2;
-    z-index: 15;
+    z-index: 5;
 }
 
 #mapa-interativo iframe {
