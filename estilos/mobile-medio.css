@@ -2,6 +2,10 @@ header {
     padding: 0 25px;
 }
 
+header > a {
+    justify-content: flex-start;
+}
+
 nav ul {
     justify-content: flex-end;
 }

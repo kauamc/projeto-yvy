@@ -11,12 +11,12 @@
     color: var(--texto-cor);
     text-align: center;
     text-transform: uppercase;
-    z-index: 3;
+    z-index: 15;
 }
 
 #mapa-interativo .botao-iniciar {
     grid-area: 3 / 2;
-    z-index: 3;
+    z-index: 15;
 }
 
 #mapa-interativo iframe {
@@ -24,7 +24,6 @@
     height: 100%;
     border: none;
     grid-area: 1 / 1 / -1 / -1;
-    z-index: 2;
 }
 
 #boas-vindas {

@@ -46,7 +46,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 100;
+    z-index: 10;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,7 +77,6 @@ header li > a {
     text-decoration: none;
     color: var(--texto-cor);
     padding: 5px;
-    
     position: relative;
 }
 
