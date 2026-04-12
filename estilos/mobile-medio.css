@@ -9,3 +9,7 @@ nav ul {
 .continentes ul {
     columns: 2;
 }
+
+#mapa-interativo {
+    display: none;
+}

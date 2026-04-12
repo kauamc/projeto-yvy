@@ -101,6 +101,10 @@ header li > a {
 
 /* Boas-vindas */
 
+#mapa-interativo {
+    display: none;
+}
+
 #boas-vindas {
     --bh-width: 200vh;
 
