@@ -19,6 +19,8 @@
 
     --texto-cor: black;
     --texto-cor-alt: white;
+    --lista-cor-disponivel: rgb(35, 112, 206);
+    --lista-cor-indisponivel: rgb(185, 20, 20);
 
     --texto-fonte: 'Miranda Sans', 'Inter', 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -181,7 +183,7 @@ header li > a {
 /* Seleção de país */
 
 #selecionar-lugar {
-    padding: 10px;
+    padding: 15px;
 }
 
 #selecionar-lugar h1 {
@@ -208,11 +210,29 @@ header li > a {
 
 .continente li {
     list-style-position: inside;
-    margin-left: 15px;
+}
+
+.continente li.disponivel {
+    list-style-type: none;
+}
+
+.continente li.disponivel > a {
+    text-decoration: none;
+    color: var(--lista-cor-disponivel);
+}
+
+.continente li.disponivel > a:hover {
+    text-decoration: underline;
+}
+
+.continente li.disponivel > a:visited {
+    text-decoration: none;
+    color: var(--lista-cor-disponivel);
 }
 
 .indisponivel {
-    color: rgb(185, 20, 20);
+    list-style-type: none;
+    color: var(--lista-cor-indisponivel);
     cursor: not-allowed;
 }
 
