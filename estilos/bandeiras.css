@@ -167,7 +167,7 @@
 #irlanda::before { content: '\01F1EE\01F1EA\00A0'; }
 #islandia::before { content: '\01F1EE\01F1F8\00A0'; }
 #italia::before { content: '\01F1EE\01F1F9\00A0'; }
-#kosovo::before { content: '\01F1FD\01F1F0\00A0'; } /* XK (não ISO padrão, mas usado no Unicode) */
+#kosovo::before { content: '\01F1FD\01F1F0\00A0'; }
 #letonia::before { content: '\01F1F1\01F1FB\00A0'; }
 #liechtenstein::before { content: '\01F1F1\01F1EE\00A0'; }
 #lituania::before { content: '\01F1F1\01F1F9\00A0'; }

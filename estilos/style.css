@@ -184,6 +184,8 @@ header li > a {
 
 #selecionar-lugar {
     padding: 15px;
+    margin: auto;
+    max-width: 1000px;
 }
 
 #selecionar-lugar h1 {
