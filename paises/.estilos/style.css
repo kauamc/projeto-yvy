@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Miranda+Sans:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid grey; */
+}
+
+body {
+    width: 100%;
+    height: 100dvh;
+}
+
+#introducao {
+    display: none;
+}
+
+/* Informações Gerais */
+
+#secao-dados {
+    margin: 85px 15px 15px 15px;
+}
+
+#secao-dados h2 {
+    display: none;
+}
+
+.info-gerais {
+    width: 100%;
+    display: grid;
+    grid-template: repeat(4, auto) / 1fr 1fr;
+    grid-auto-flow: row;
+    gap: 15px;
+}
+
+.info-gerais > div {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: lightgrey;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.info-gerais .bandeira-nome {
+    grid-area: 1 / 1 / span 2 / span 1;
+}
+
+    .p-bandeira {
+        width: 100%;
+        height: 100px;
+    }
+
+    .p-nome {
+        margin-top: 10px;
+    }
+
+.p-titulo {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
