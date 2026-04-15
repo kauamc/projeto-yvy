@@ -21,7 +21,9 @@ body {
 /* Informações Gerais */
 
 #secao-dados {
-    margin: 85px 15px 15px 15px;
+    padding: 85px 15px 15px 15px;
+    width: 100%;
+    height: 100dvh;
 }
 
 #secao-dados h2 {
@@ -36,10 +38,10 @@ body {
     gap: 15px;
 }
 
-.info-gerais > div {
+div.caixa {
     display: flex;
     flex-flow: column wrap;
-    background-color: lightgrey;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
     border-radius: 12px;
     padding: 10px;
 }
@@ -53,11 +55,63 @@ body {
         height: 100px;
     }
 
+    .p-bandeira img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
     .p-nome {
         margin-top: 10px;
+        text-align: center;
     }
 
 .p-titulo {
     font-size: 1.3rem;
     font-weight: 700;
+}
+
+.lema {
+    grid-area: 5 / 1 / span 1 / span 2;
+}
+
+/* Informações Extras */
+
+.info-extras {
+    margin-top: 15px;
+    display: none;
+    /* display: grid; */
+    grid-template: repeat(6, auto) / 1fr 1fr;
+    grid-auto-flow: row;
+    gap: 15px;
+}
+
+.nome-completo {
+    grid-area: 1 / 1 / span 1 / span 2;
+}
+
+.sis-politico {
+    grid-area: 3 / 1 / span 1 / span 2;
+}
+
+.sis-economico {
+    grid-area: 4 / 1 / span 1 / span 2;
+}
+
+.info-extras-btn {
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    background: transparent;
+    border: 1px solid var(--texto-cor);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.info-extras-btn > span {
+    font-size: 1.8rem;
 }
