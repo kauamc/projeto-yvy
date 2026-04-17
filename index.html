@@ -4,29 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YVY - Explore informações</title>
-    <link rel="stylesheet" href="estilos/header.css">
-    <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/mobile-medio.css" media="screen and (min-width: 601px)">
-    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 801px)">
-    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width: 1025px)">
-    <link rel="stylesheet" href="estilos/bandeiras.css">
+    <link rel="stylesheet" href="/estilos/header.css">
+    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="/estilos/mobile-medio.css" media="screen and (min-width: 601px)">
+    <link rel="stylesheet" href="/estilos/tablet.css" media="screen and (min-width: 801px)">
+    <link rel="stylesheet" href="/estilos/desktop.css" media="screen and (min-width: 1025px)">
+    <link rel="stylesheet" href="/estilos/bandeiras.css">
 </head>
 <body>
-    <header>
-        <a href="#inicio"><img src="yvy-logo.svg" alt="YVY"></a>
-        <nav>
-            <ul>
-                <li><a class="border-animado" href="#selecionar-lugar">Países</a></li>
-                <li><a class="border-animado" href="paginas/suporte/suporte.html">Suporte</a></li>
-                <li><a class="border-animado" href="paginas/sobre/sobre.html">Sobre</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div id="header"></div>
     <main id="inicio">
         <div id="mapa-interativo">
             <h1>Escolha um país para explorar</h1>
             <div class="botao-iniciar"><a href="#selecionar-lugar">Ou selecione na lista</a></div>
-            <iframe src="mapa.html" frameborder="0" scrolling="no"></iframe>
+            <iframe src="/mapa.html" frameborder="0" scrolling="no"></iframe>
         </div>
 
         <div id="bg">
@@ -271,9 +262,9 @@
         </section>
         <div class="topo"><a href="#selecionar-lugar">Voltar ao topo</a></div>
     </main>
-    <footer>
-        <img class="yvy-logo" src="yvy-logo-alt.svg" alt="YVY">
-        <p>&copy; YVY. Projeto construído por Kauã Cavalcante com fins de prática.</p>
-    </footer>
+    <div id="footer"></div>
+
+    <script src="/scripts/componentes.js"></script>
+    <script src="/scripts/main.js"></script>
 </body>
 </html>
