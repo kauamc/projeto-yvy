@@ -6,7 +6,7 @@ function mostrarInfoExtras() {
     seta.style.transform = infoExtras.style.display === 'grid' ? 'rotate(180deg)' : 'rotate(0deg)'
 }
 
-fetch('territorio3.svg')
+fetch('territorio.svg')
     .then(resposta => resposta.text())
     .then(svg => {
         document.querySelector('#territorio').innerHTML = svg

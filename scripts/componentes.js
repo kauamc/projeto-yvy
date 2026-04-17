@@ -1,5 +1,5 @@
-function carregarComponentes(id, arquivo) {
-    fetch(arquivo)
+function carregarComponente(id, arquivo) {
+    return fetch(arquivo)
         .then(res => res.text())
         .then(html => {
             const elemento = document.getElementById(id)
@@ -7,4 +7,5 @@ function carregarComponentes(id, arquivo) {
                 elemento.innerHTML = html
             }
         })
+        .catch(erro => console.error(erro))
 }
