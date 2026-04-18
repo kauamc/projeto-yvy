@@ -1,0 +1,47 @@
+.secao-dados {
+    grid-area: 1 / 1 / span 1 / -1;
+    height: auto;
+}
+
+.secao-territorio {
+    grid-area: 2 / 1 / span 1 / -1;
+    height: 100vh;
+    justify-content: center;
+}
+
+.info-gerais {
+    grid-template: repeat(4, auto) / 1fr 1fr 1fr;
+}
+
+.lema {
+    grid-area: initial;
+}
+
+.info-extras {
+    grid-template: repeat(6, auto) / 1fr 1fr 1fr;
+}
+
+.sis-politico {
+    grid-area: initial;
+}
+
+.sis-economico {
+    grid-area: initial;
+}
+
+.principal-religiao {
+    grid-area: 3 / 2 / span 1 / -1;
+}
+
+#territorio {
+    display: flex;
+    justify-content: center;
+}
+
+#territorio svg {
+    width: 70%;
+}
+
+.secao-imersao {
+    grid-area: 3 / 1 / span 1 / -1;
+}

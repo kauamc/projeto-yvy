@@ -7,20 +7,15 @@
     <link rel="stylesheet" data-link="/estilos/header.css">
     <link rel="stylesheet" data-link="/estilos/style.css">
     <link rel="stylesheet" data-link="/paises/.estilos/style.css">
+    <link rel="stylesheet" data-link="/paises/.estilos/desktop.css" media="screen and (min-width: 1120px)">
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_drop_down" />
 </head>
 <body>
     <div id="header"></div>
     <main>
-        <!-- Mobile / Fase de testes!-->
-        <section id="introducao"> 
-            <h1>[País]</h1>
-            <!-- Botão dados -->
-            <!-- Botão imersão -->
-        </section>
-
         <!-- Seção de Dados -->
-        <section id="secao-dados">
+        <section class="secao-dados">
             <h2>Dados</h2>
             <div class="info-gerais">
                 <div class="caixa bandeira-nome">
@@ -91,7 +86,8 @@
             <button class="info-extras-btn" onclick="mostrarInfoExtras()"><span id="seta-info-extra" class="material-symbols-outlined">arrow_drop_down</span>Informações Extras</button>
         </section>
 
-        <section id="secao-territorio">
+        <!-- Seção com Território -->
+        <section class="secao-territorio">
             <h2>Território</h2>
             <div id="territorio"></div>
             <div class="info-regiao">
@@ -99,7 +95,8 @@
             </div>
         </section>
 
-        <section id="secao-imersao">
+        <!-- Seção Imersão -->
+        <section class="secao-imersao">
             <section class="subsecao" id="introducao-im">
                 <h1>[País]</h1>
                 <p>[breve descrição] Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti voluptates vel, voluptatibus quibusdam assumenda laborum nostrum qui accusamus magni nihil saepe molestias sint animi aliquam nesciunt, illum dolores commodi.</p>
