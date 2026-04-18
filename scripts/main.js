@@ -17,7 +17,7 @@ function ajustarLinks(){
     const links = document.querySelectorAll('[data-link]')
     links.forEach(link => {
         link.href = caminho(link.dataset.link);
-    })
+    });
 
     const imagens = document.querySelectorAll('[data-src]')
     imagens.forEach(img => {
