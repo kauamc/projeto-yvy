@@ -145,6 +145,7 @@ div.caixa {
 
 #territorio svg path {
     stroke-width: 3px;
+    cursor: pointer;
 }
 
 #territorio svg path:hover {
@@ -152,9 +153,10 @@ div.caixa {
 }
 
 div.info-regiao {
+    font-size: 1.3rem;
     width: 90%;
     max-width: 600px;
-    height: 100px;
+    height: 80px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
