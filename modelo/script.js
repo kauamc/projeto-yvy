@@ -6,7 +6,7 @@ function mostrarInfoExtras() {
     seta.style.transform = infoExtras.style.display === 'grid' ? 'rotate(180deg)' : 'rotate(0deg)'
 }
 
-fetch('territorio3.svg')
+fetch('territorio.svg')
     .then(resposta => resposta.text())
     .then(svg => {
         document.querySelector('#territorio').innerHTML = svg
@@ -15,6 +15,11 @@ fetch('territorio3.svg')
         var info = document.getElementById("info")
 
         mapa.addEventListener('click', function(evento) {
+            var todosEstados = mapa.querySelectorAll('path')
+            todosEstados.forEach(function(estado){
+                estado.style.fill = "lightgrey"
+            })
+
             var pathClicado = evento.target
             var estado = pathClicado.closest('path')
 
@@ -24,6 +29,7 @@ fetch('territorio3.svg')
 
             var nome = estado.getAttribute('data-name')
             info.innerHTML= `<p>${nome}</p>`
+            estado.style.fill = "grey"
         })
     })
 

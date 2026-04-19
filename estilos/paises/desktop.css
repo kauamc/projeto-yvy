@@ -1,14 +1,26 @@
 main {
-    grid-template: repeat(3, auto) / 1fr 500px;
+    grid-template: repeat(3, auto) / 1fr 600px;
 }
 
 .secao-dados {
     grid-area: 1 / 1 / span 1 / span 1;
-    height: calc(100vh - 70px);
+    min-height: calc(100vh - 70px);
+}
+
+.info-gerais {
+    grid-template: repeat(4, auto) / auto 1fr 1fr;
+}
+
+.moeda {
+    grid-area: 3 / 2 / span 1 / -1;
 }
 
 .info-extras {
     display: grid !important;
+}
+
+.lema {
+    grid-area: 5 / 1 / span 1 / -1;
 }
 
 .info-extras-btn {

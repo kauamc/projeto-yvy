@@ -52,11 +52,14 @@ div.caixa {
 
 .info-gerais .bandeira-nome {
     grid-area: 1 / 1 / span 2 / span 1;
+    align-items: center;
 }
 
     .p-bandeira {
         width: 100%;
-        height: 100px;
+        max-width: 300px;
+        min-width: 200px;
+        height: auto;
         display: flex;
         align-items: center;
         justify-content: center;
