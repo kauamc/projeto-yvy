@@ -15,8 +15,8 @@ fetch('territorio.svg')
         var info = document.getElementById("info")
 
         mapa.addEventListener('click', function(evento) {
-            var todosEstados = mapa.querySelectorAll('path')
-            todosEstados.forEach(function(estado){
+            var outrosEstados = mapa.querySelectorAll('path')
+            outrosEstados.forEach(function(estado){
                 estado.style.fill = "lightgrey"
             })
 
@@ -33,3 +33,9 @@ fetch('territorio.svg')
         })
     })
 
+fetch('dados.json')
+    .then(res => res.json())
+    .then(dados => {
+        const nome = document.querySelector('#p-nome')
+        nome.innerHTML = dados[0].nome
+    })

@@ -1,0 +1,56 @@
+[
+    { 
+        "id": "br",
+        "bandeira": "",
+        "nome": "Brasil",
+        "capital": "Brasília",
+        "localizacao": "América do Sul",
+        "idioma": "Português",
+        "populacao": 213421037,
+        "populacaoAno": 2025,
+        "area": 8516000,
+        "moeda": {
+            "nome": "Real",
+            "simbolo": "R$",
+            "iso": "BRL"
+        },
+        "lema": "Ordem e Progresso",
+
+        "nomeCompleto": "República Federativa do Brasil",
+        "idh": 0.786,
+        "idhAno": 2023,
+        "pib": 2.257000000000,
+        "pibAno": 2025,
+        "sisPolitico": "República Federativa Presidencialista",
+        "sisEconomico": "Economia mista",
+        "ddi": "+55",
+        "principalReligiao": "Cristianismo"
+    },
+    {
+        "id": "",
+        "bandeira": "",
+        "nome": "",
+        "capital": "",
+        "localizacao": "",
+        "idioma": "",
+        "populacao": 0,
+        "populacaoAno": 0,
+        "area": 0,
+        "moeda": {
+            "nome": "",
+            "simbolo": "",
+            "iso": ""
+        },
+        "lema": "",
+
+        "nomeCompleto": "",
+        "idh": 0,
+        "idhAno": 0,
+        "pib": 0,
+        "pibAno": 0,
+        "sisPolitico": "",
+        "sisEconomico": "",
+        "ddi": "",
+        "principalReligiao": ""
+    }
+]
