@@ -77,7 +77,7 @@ fetch('dados.json')
         area.innerHTML = `${pais.area} km²`
         moedaNome.innerHTML = pais.moeda.nome
         moedaSimbolo.innerHTML = pais.moeda.simbolo
-        moedaIso.innerHTML = pais.moeda.simbolo
+        moedaIso.innerHTML = pais.moeda.iso
         lema.innerHTML = `<i>&quot${pais.lema}&quot</i>`
         
         nomeCompleto.innerHTML = pais.nomeCompleto
