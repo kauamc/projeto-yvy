@@ -50,6 +50,10 @@ div.caixa {
     padding: 10px;
 }
 
+.caixa > div {
+    font-size: 1.2rem;
+}
+
 .info-gerais .bandeira-nome {
     grid-area: 1 / 1 / span 2 / span 1;
     align-items: center;
@@ -74,6 +78,8 @@ div.caixa {
     #p-nome {
         margin-top: 10px;
         text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
     }
 
 .p-titulo {
