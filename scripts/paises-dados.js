@@ -32,18 +32,20 @@ fetch('../dados.json')
         capital.innerHTML = pais.capital
         localizacao.innerHTML = pais.localizacao
         idioma.innerHTML = pais.idioma
-        populacao.innerHTML = pais.populacao
-        area.innerHTML = `${pais.area} km²`
+        populacao.innerHTML = pais.populacao.toLocaleString('pt-BR')
+        area.innerHTML = `${pais.area.toLocaleString('pt-BR')} km²`
         moedaNome.innerHTML = pais.moeda.nome
         moedaSimbolo.innerHTML = pais.moeda.simbolo
         moedaIso.innerHTML = pais.moeda.iso
         lema.innerHTML = `<i>&quot${pais.lema}&quot</i>`
-        
+        if(pais.lema === null){
+            lema.innerHTML = `País sem lema oficial`
+        }
         nomeCompleto.innerHTML = pais.nomeCompleto
         idh.innerHTML = pais.idh
-        pib.innerHTML = `US$ ${pais.pib}`
+        pib.innerHTML = `US$ ${pais.pib.toLocaleString('pt-BR')}`
         sisPolitico.innerHTML = pais.sisPolitico
         sisEconomico.innerHTML = pais.sisEconomico
-        ddi.innerHTML = pais.ddi
+        ddi.innerHTML = `+${pais.ddi}`
         principalReligiao.innerHTML = pais.principalReligiao
     })
