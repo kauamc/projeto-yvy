@@ -1,0 +1,3 @@
+.info-gerais .bandeira-nome {
+    grid-area: 1 / 1 / span 2 / -1;
+}

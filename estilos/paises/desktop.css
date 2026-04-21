@@ -4,7 +4,6 @@ main {
 
 .secao-dados {
     grid-area: 1 / 1 / span 1 / span 1;
-    min-height: calc(100vh - 70px);
 }
 
 .info-gerais {
