@@ -125,6 +125,31 @@
         "principalReligiao": "Cristianismo (Catolicismo)"
     },
     {
+        "id": "ma",
+        "nome": "Marrocos",
+        "capital": "Rabat",
+        "localizacao": "África do Norte, África",
+        "idioma": "Árabe e Berbere",
+        "populacao": 38400000,
+        "populacaoAno": 2026,
+        "area": 446550,
+        "moeda": {
+            "nome": "Dirham marroquino",
+            "simbolo": "DH",
+            "iso": "MAD"
+        },
+        "lema": "Allāh, al-Waṭan, al-Malik (Deus, Pátria, Rei)",
+        "nomeCompleto": "Reino de Marrocos",
+        "idh": 0.698,
+        "idhAno": 2022,
+        "pib": 158000000000,
+        "pibAno": 2026,
+        "sisPolitico": "Monarquia Constitucional Parlamentar",
+        "sisEconomico": "Economia de mercado",
+        "ddi": 212,
+        "principalReligiao": "Islamismo"
+    },
+    {
         "id": "ru",
         "nome": "Rússia",
         "capital": "Moscou",
