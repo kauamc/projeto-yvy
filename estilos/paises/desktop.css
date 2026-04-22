@@ -32,6 +32,8 @@ main {
 
 .secao-territorio {
     grid-area: 1 / 2 / span 1 / -1;
+    grid-template: auto 1fr 150px / 1fr;
+    place-items: center;
 }
 
 /* Seção Imersão */
