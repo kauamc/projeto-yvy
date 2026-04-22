@@ -53,7 +53,7 @@
         "id": "co",
         "nome": "Colômbia",
         "capital": "Bogotá",
-        "localizacao": "América do Sul",
+        "localizacao": "América do Sul, América",
         "idioma": "Espanhol",
         "populacao": 52886363,
         "populacaoAno": 2026,
@@ -148,6 +148,31 @@
         "sisEconomico": "Economia mista",
         "ddi": 90,
         "principalReligiao": "Islamismo"
+    },
+    {
+        "id": "ve",
+        "nome": "Venezuela",
+        "capital": "Caracas",
+        "localizacao": "América do Sul, América",
+        "idioma": "Espanhol",
+        "populacao": 29320000,
+        "populacaoAno": 2026,
+        "area": 916445,
+        "moeda": {
+            "nome": "Bolívar Digital",
+            "simbolo": "Bs.D",
+            "iso": "VED"
+        },
+        "lema": "Dios y Federación",
+        "nomeCompleto": "República Bolivariana da Venezuela",
+        "idh": 0.699,
+        "idhAno": 2022,
+        "pib": 102000000000,
+        "pibAno": 2025,
+        "sisPolitico": "República Federal Presidencialista",
+        "sisEconomico": "Economia de base extrativista (estatizada)",
+        "ddi": 58,
+        "principalReligiao": "Cristianismo"
     },
     {
         "id": "",
