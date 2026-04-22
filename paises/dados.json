@@ -100,6 +100,31 @@
         "principalReligiao": "Cristianismo"
     },
     {
+        "id": "et",
+        "nome": "Etiópia",
+        "capital": "Adis Abeba",
+        "localizacao": "África Oriental, África",
+        "idioma": "Amárico",
+        "populacao": 135432000,
+        "populacaoAno": 2026,
+        "area": 1104300,
+        "moeda": {
+            "nome": "Birr etíope",
+            "simbolo": "Br",
+            "iso": "ETB"
+        },
+        "lema": null,
+        "nomeCompleto": "República Federal Democrática da Etiópia",
+        "idh": 0.492,
+        "idhAno": 2022,
+        "pib": 225000000000,
+        "pibAno": 2026,
+        "sisPolitico": "República Federal Parlamentar",
+        "sisEconomico": "Economia mista",
+        "ddi": 251,
+        "principalReligiao": "Cristianismo (Ortodoxia Etíope)"
+    },
+    {
         "id": "it",
         "nome": "Itália",
         "capital": "Roma",
@@ -128,7 +153,7 @@
         "id": "ma",
         "nome": "Marrocos",
         "capital": "Rabat",
-        "localizacao": "África do Norte, África",
+        "localizacao": "África Setentrional, África",
         "idioma": "Árabe e Berbere",
         "populacao": 38400000,
         "populacaoAno": 2026,
