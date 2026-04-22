@@ -97,7 +97,7 @@ function preencherDados(pais) {
         lema.innerHTML = `País sem lema oficial`;
     }
     nomeCompleto.innerHTML = pais.nomeCompleto
-    idh.innerHTML = pais.idh
+    idh.innerHTML = pais.idh.toFixed(3)
     pib.innerHTML = `US$ ${pais.pib.toLocaleString('pt-BR')}`
     sisPolitico.innerHTML = pais.sisPolitico
     sisEconomico.innerHTML = pais.sisEconomico

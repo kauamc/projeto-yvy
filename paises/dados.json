@@ -150,6 +150,31 @@
         "principalReligiao": "Cristianismo (Catolicismo)"
     },
     {
+        "id": "jp",
+        "nome": "Japão",
+        "capital": "Tóquio",
+        "localizacao": "Ásia Oriental",
+        "idioma": "Japonês",
+        "populacao": 122631432,
+        "populacaoAno": 2026,
+        "area": 377975,
+        "moeda": {
+            "nome": "Iene",
+            "simbolo": "¥",
+            "iso": "JPY"
+        },
+        "lema": null,
+        "nomeCompleto": "Estado do Japão",
+        "idh": 0.920,
+        "idhAno": 2022,
+        "pib": 4310322000000,
+        "pibAno": 2026,
+        "sisPolitico": "Monarquia Constitucional Parlamentar Unitária",
+        "sisEconomico": "Economia de mercado",
+        "ddi": 81,
+        "principalReligiao": "Xintoísmo e Budismo"
+    },
+    {
         "id": "ma",
         "nome": "Marrocos",
         "capital": "Rabat",
