@@ -1,4 +1,29 @@
 [
+    {
+        "id": "au",
+        "nome": "Austrália",
+        "capital": "Camberra",
+        "localizacao": "Oceania",
+        "idioma": "Inglês",
+        "populacao": 27360000,
+        "populacaoAno": 2026,
+        "area": 7692024,
+        "moeda": {
+            "nome": "Dólar australiano",
+            "simbolo": "$",
+            "iso": "AUD"
+        },
+        "lema": null,
+        "nomeCompleto": "Comunidade da Austrália",
+        "idh": 0.946,
+        "idhAno": 2022,
+        "pib": 1790000000000,
+        "pibAno": 2026,
+        "sisPolitico": "Monarquia Constitucional Parlamentar Federal",
+        "sisEconomico": "Economia de mercado",
+        "ddi": 61,
+        "principalReligiao": "Cristianismo"
+    },
     { 
         "id": "br",
         "nome": "Brasil",

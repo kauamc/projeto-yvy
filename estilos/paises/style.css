@@ -100,7 +100,6 @@ div.caixa {
 .info-extras {
     margin-top: 15px;
     display: none;
-    /* display: grid; */
     grid-template: repeat(6, auto) / 1fr 1fr;
     grid-auto-flow: row;
     gap: 15px;
@@ -141,10 +140,12 @@ div.caixa {
 
 .secao-territorio {
     width: 100%;
+    height: 100%;
     padding: 15px;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
+    display: grid;
+    grid-template: auto 80dvh auto / 1fr;
+    grid-auto-flow: column;
+    justify-items: center;
 }
 
 .secao-territorio h2 {
@@ -153,9 +154,14 @@ div.caixa {
 
 .secao-territorio #territorio {
     width: 100%;
+    height: auto;
     padding: 15px 0;
     display: flex;
     justify-content: center;
+}
+
+#territorio svg {
+    height: 100%;
 }
 
 #territorio svg path {

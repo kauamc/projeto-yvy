@@ -1,6 +1,8 @@
 main {
-    grid-template: repeat(3, auto) / 1fr 600px;
+    grid-template: auto auto auto / 1fr 600px;
 }
+
+/* Seção Dados */
 
 .secao-dados {
     grid-area: 1 / 1 / span 1 / span 1;
@@ -26,9 +28,13 @@ main {
     display: none;
 }
 
+/* Seção Território */
+
 .secao-territorio {
     grid-area: 1 / 2 / span 1 / -1;
 }
+
+/* Seção Imersão */
 
 .secao-imersao {
     grid-area: 2 / 1 / span 1 / -1;
