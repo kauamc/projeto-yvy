@@ -159,7 +159,9 @@ div.caixa {
 }
 
 #territorio svg path {
-    stroke-width: 3px;
+    fill: lightgrey;
+    stroke-width: 2px;
+    stroke: white;
     cursor: pointer;
 }
 

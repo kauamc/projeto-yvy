@@ -50,6 +50,31 @@
         "principalReligiao": "Cristianismo"
     },
     {
+        "id": "co",
+        "nome": "Colômbia",
+        "capital": "Bogotá",
+        "localizacao": "América do Sul",
+        "idioma": "Espanhol",
+        "populacao": 52886363,
+        "populacaoAno": 2026,
+        "area": 1141748,
+        "moeda": {
+            "nome": "Peso colombiano",
+            "simbolo": "$",
+            "iso": "COP"
+        },
+        "lema": "Libertad y Orden",
+        "nomeCompleto": "República da Colômbia",
+        "idh": 0.758,
+        "idhAno": 2022,
+        "pib": 386200000000,
+        "pibAno": 2026,
+        "sisPolitico": "República Presidencialista",
+        "sisEconomico": "Economia de mercado",
+        "ddi": 57,
+        "principalReligiao": "Cristianismo"
+    },
+    {
         "id": "it",
         "nome": "Itália",
         "capital": "Roma",
@@ -73,6 +98,31 @@
         "sisEconomico": "Economia de mercado",
         "ddi": 39,
         "principalReligiao": "Cristianismo (Catolicismo)"
+    },
+    {
+        "id": "ru",
+        "nome": "Rússia",
+        "capital": "Moscou",
+        "localizacao": "Europa e Ásia",
+        "idioma": "Russo",
+        "populacao": 143621422,
+        "populacaoAno": 2026,
+        "area": 17098242,
+        "moeda": {
+            "nome": "Rublo russo",
+            "simbolo": "₽",
+            "iso": "RUB"
+        },
+        "lema": null,
+        "nomeCompleto": "Federação Russa",
+        "idh": 0.821,
+        "idhAno": 2022,
+        "pib": 1940000000000,
+        "pibAno": 2026,
+        "sisPolitico": "República Federal Semipresidencialista",
+        "sisEconomico": "Economia de mercado",
+        "ddi": 7,
+        "principalReligiao": "Cristianismo (Ortodoxia)"
     },
     {
         "id": "tr",
