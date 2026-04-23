@@ -174,7 +174,11 @@ div.caixa {
 }
 
 #territorio svg path:hover {
-    fill: var(--texto-cor);
+    fill: grey;
+}
+
+#territorio svg .selecionado {
+    fill: grey;
 }
 
 div.info-regiao {

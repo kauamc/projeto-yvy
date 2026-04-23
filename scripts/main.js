@@ -46,7 +46,7 @@ function iniciarMapa() {
         var outrosEstados = mapa.querySelectorAll('path');
 
         outrosEstados.forEach(function(estado){
-            estado.style.fill = "lightgrey";
+            estado.classList.remove('selecionado')
         });
 
         var estado = evento.target.closest('path');
@@ -54,7 +54,7 @@ function iniciarMapa() {
         if (!estado) return;
 
         info.innerHTML = `<p>${estado.dataset.name}</p>`;
-        estado.style.fill = "grey";
+        estado.classList.add('selecionado')
     });
 }
 
