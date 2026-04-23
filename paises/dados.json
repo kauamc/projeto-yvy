@@ -75,6 +75,31 @@
         "principalReligiao": "Cristianismo"
     },
     {
+        "id": "ca",
+        "nome": "Canadá",
+        "capital": "Ottawa",
+        "localizacao": "América do Norte, América",
+        "idioma": "Inglês e Francês",
+        "populacao": 41560230,
+        "populacaoAno": 2026,
+        "area": 9984670,
+        "moeda": {
+            "nome": "Dólar canadense",
+            "simbolo": "$",
+            "iso": "CAD"
+        },
+        "lema": "A Mari usque ad Mare (De mar a mar)",
+        "nomeCompleto": "Canadá",
+        "idh": 0.935,
+        "idhAno": 2022,
+        "pib": 2240000000000,
+        "pibAno": 2026,
+        "sisPolitico": "Monarquia Constitucional e Democracia Parlamentar Federal",
+        "sisEconomico": "Economia de mercado",
+        "ddi": 1,
+        "principalReligiao": "Cristianismo"
+    },
+    {
         "id": "cl",
         "nome": "Chile",
         "capital": "Santiago",
@@ -122,6 +147,31 @@
         "sisPolitico": "República Presidencialista",
         "sisEconomico": "Economia de mercado",
         "ddi": 57,
+        "principalReligiao": "Cristianismo"
+    },
+    {
+        "id": "de",
+        "nome": "Alemanha",
+        "capital": "Berlim",
+        "localizacao": "Europa Central, Europa",
+        "idioma": "Alemão",
+        "populacao": 84150000,
+        "populacaoAno": 2026,
+        "area": 357022,
+        "moeda": {
+            "nome": "Euro",
+            "simbolo": "€",
+            "iso": "EUR"
+        },
+        "lema": "Einigkeit und Recht und Freiheit (Unidade e Justiça e Liberdade)",
+        "nomeCompleto": "República Federal da Alemanha",
+        "idh": 0.950,
+        "idhAno": 2022,
+        "pib": 4730000000000,
+        "pibAno": 2026,
+        "sisPolitico": "República Federal Parlamentar",
+        "sisEconomico": "Economia social de mercado",
+        "ddi": 49,
         "principalReligiao": "Cristianismo"
     },
     {
