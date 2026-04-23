@@ -1,5 +1,30 @@
 [
     {
+        "id": "ar",
+        "nome": "Argentina",
+        "capital": "Buenos Aires",
+        "localizacao": "América do Sul, América",
+        "idioma": "Espanhol",
+        "populacao": 47250484,
+        "populacaoAno": 2026,
+        "area": 2780400,
+        "moeda": {
+            "nome": "Peso argentino",
+            "simbolo": "$",
+            "iso": "ARS"
+        },
+        "lema": "En unión y libertad",
+        "nomeCompleto": "República Argentina",
+        "idh": 0.849,
+        "idhAno": 2022,
+        "pib": 643800000000,
+        "pibAno": 2026,
+        "sisPolitico": "República Federal Presidencialista",
+        "sisEconomico": "Economia de mercado",
+        "ddi": 54,
+        "principalReligiao": "Cristianismo (Catolicismo)"
+    },
+    {
         "id": "au",
         "nome": "Austrália",
         "capital": "Camberra",
@@ -153,7 +178,7 @@
         "id": "jp",
         "nome": "Japão",
         "capital": "Tóquio",
-        "localizacao": "Ásia Oriental",
+        "localizacao": "Ásia Oriental, Ásia",
         "idioma": "Japonês",
         "populacao": 122631432,
         "populacaoAno": 2026,
