@@ -275,6 +275,31 @@
         "principalReligiao": "Islamismo"
     },
     {
+        "id": "np",
+        "nome": "Nepal",
+        "capital": "Catmandu",
+        "localizacao": "Sul da Ásia, Ásia",
+        "idioma": "Nepalês",
+        "populacao": 30896000,
+        "populacaoAno": 2026,
+        "area": 147181,
+        "moeda": {
+            "nome": "Rupia nepalesa",
+            "simbolo": "₨",
+            "iso": "NPR"
+        },
+        "lema": "Janani Janmabhumishcha Swargadapi Gariyasi (A mãe e a pátria são maiores que o céu)",
+        "nomeCompleto": "República Federal Democrática do Nepal",
+        "idh": 0.601,
+        "idhAno": 2022,
+        "pib": 44100000000,
+        "pibAno": 2026,
+        "sisPolitico": "República Federal Parlamentar",
+        "sisEconomico": "Economia de mercado",
+        "ddi": 977,
+        "principalReligiao": "Hinduísmo"
+    },
+    {
         "id": "ru",
         "nome": "Rússia",
         "capital": "Moscou",
