@@ -54,7 +54,12 @@ div.caixa {
     padding: 10px;
 }
 
-.caixa > div {
+.caixa > h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.caixa > p {
     font-size: 1.2rem;
 }
 
@@ -91,8 +96,43 @@ div.caixa {
     font-weight: 700;
 }
 
+.caixa > h3::after {
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 0.7;
+    font-style: italic;
+}
+
+.capital > h3::after {
+    content: " (Capital)";
+}
+
+.localizacao > h3::after {
+    content: " (Location)";
+}
+
+.idioma > h3::after {
+    content: " (Language)";
+}
+
+.populacao > h3::after {
+    content: " (Population)";
+}
+
+.area > h3::after {
+    content: " (Area)";
+}
+
+.moeda > h3::after {
+    content: " (Currency)";
+}
+
 .lema {
     grid-area: 5 / 1 / span 1 / span 2;
+}
+
+.lema > h3::after {
+    content: " (Motto)";
 }
 
 /* Informações Extras */
@@ -110,8 +150,36 @@ div.caixa {
     grid-area: 1 / 1 / span 1 / span 2;
 }
 
+.nome-completo > h3::after {
+    content: " (Full Name)";
+}
+
+.idh > h3::after {
+    content: " (HDI)";
+}
+
+.pib > h3::after {
+    content: " (GDP)";
+}
+
 .sis-politico {
     grid-area: 3 / 1 / span 1 / span 2;
+}
+
+.sis-politico > h3::after {
+    content: " (Political System)";
+}
+
+.sis-economico > h3::after {
+    content: " (Economic System)";
+}
+
+.ddi > h3::after {
+    content: " (DDI)";
+}
+
+.principal-religiao > h3::after {
+    content: " (Main Religion)";
 }
 
 .sis-economico {
