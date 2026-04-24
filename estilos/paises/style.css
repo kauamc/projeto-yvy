@@ -277,18 +277,18 @@ div.info-regiao {
 
 /* Introdução */
 
-#introducao-im {
+.introducao-im {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: aqua;
 }
 
-#introducao-im h1 {
+.introducao-im h1 {
     font-size: 3rem;
 }
 
-#introducao-im p {
+.introducao-im p {
     text-align: center;
 }
 
