@@ -264,32 +264,3 @@ div.info-regiao {
     text-align: center;
 }
 
-/* Seção Imersiva */
-
-.subsecao {
-    width: 100%;
-    height: 100dvh;
-    padding: 15px;
-    display: flex;
-    flex-flow: column;
-    gap: 1em;
-}
-
-/* Introdução */
-
-.introducao-im {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: aqua;
-}
-
-.introducao-im h1 {
-    font-size: 3rem;
-}
-
-.introducao-im p {
-    text-align: center;
-}
-
-/* Passado */
