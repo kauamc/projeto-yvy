@@ -150,6 +150,31 @@
         "principalReligiao": "Cristianismo"
     },
     {
+        "id": "be",
+        "nome": "Bélgica",
+        "capital": "Bruxelas",
+        "localizacao": "Europa Ocidental, Europa",
+        "idioma": "Neerlandês, Francês e Alemão",
+        "populacao": 11842000,
+        "populacaoAno": 2026,
+        "area": 30528,
+        "moeda": {
+            "nome": "Euro",
+            "simbolo": "€",
+            "iso": "EUR"
+        },
+        "lema": "L'union fait la force (A união faz a força)",
+        "nomeCompleto": "Reino da Bélgica",
+        "idh": 0.942,
+        "idhAno": 2022,
+        "pib": 655000000000,
+        "pibAno": 2026,
+        "sisPolitico": "Monarquia Constitucional Federal Parlamentar",
+        "sisEconomico": "Economia de mercado",
+        "ddi": 32,
+        "principalReligiao": "Cristianismo (Catolicismo)"
+    },
+    {
         "id": "bj",
         "nome": "Benim",
         "capital": "Porto Novo",
@@ -323,6 +348,31 @@
         "sisEconomico": "Economia mista",
         "ddi": 251,
         "principalReligiao": "Cristianismo (Ortodoxia Etíope)"
+    },
+    {
+        "id": "fr",
+        "nome": "França",
+        "capital": "Paris",
+        "localizacao": "Europa Ocidental, Europa",
+        "idioma": "Francês",
+        "populacao": 66632483,
+        "populacaoAno": 2026,
+        "area": 643801,
+        "moeda": {
+            "nome": "Euro",
+            "simbolo": "€",
+            "iso": "EUR"
+        },
+        "lema": "Liberté, Égalité, Fraternité (Liberdade, Igualdade, Fraternidade)",
+        "nomeCompleto": "República Francesa",
+        "idh": 0.910,
+        "idhAno": 2022,
+        "pib": 3177500000000,
+        "pibAno": 2026,
+        "sisPolitico": "República Semipresidencialista",
+        "sisEconomico": "Economia de mercado",
+        "ddi": 33,
+        "principalReligiao": "Cristianismo"
     },
     {
         "id": "it",
