@@ -7,6 +7,28 @@
     display: flex;
     flex-flow: column;
     gap: 1em;
+    font-size: 1.2rem;
+}
+
+.subsecao figure {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.subsecao figure img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.345);
+}
+
+.subsecao figure figcaption {
+    text-align: right;
+    font-size: 1rem;
+}
+
+.subsecao ul {
+    list-style-position: inside;
 }
 
 /* Introdução */
@@ -34,3 +56,10 @@
 }
 
 /* Passado */
+
+.passado-im {
+    background: url(passado-bg.jpg);
+    background-size: cover;
+    background-position: top right;
+}
+
