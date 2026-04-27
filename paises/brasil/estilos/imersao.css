@@ -142,3 +142,105 @@
     padding: 1em 15px;
     max-width: 450px;
 }
+
+/* Seção Fatos */
+
+.fatos-im {
+    background: url(../imagens/fatos-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: inset 0 3px 8px 3px rgba(0, 0, 0, 0.314);
+    gap: .5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.fatos-im h2 {
+    color: var(--texto-cor-alt);
+    align-self: flex-start;
+}
+
+.clique {
+    width: 100%;
+    max-width: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--texto-cor-alt);
+    padding: 8px;
+    border: 3px solid var(--texto-cor);
+    border-radius: 10px;
+}
+
+.clique > img {
+    width: 40px
+}
+
+.clique > p {
+    flex: 0 1 auto;
+}
+
+.fatos-im ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    list-style: none;
+}
+
+.fatos-im li {
+    max-width: 400px;
+    background-color: var(--texto-cor-alt);
+    border: 2px solid #FFCB00;
+    border-radius: 16px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    cursor: pointer;
+}
+
+.fatos-im li:nth-child(1) {
+    background: url(../imagens/fato1.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fatos-im li:nth-child(2) {
+    background: url(../imagens/fato2.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fatos-im li:nth-child(3) {
+    background: url(../imagens/fato3.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fatos-im li:nth-child(4) {
+    background: url(../imagens/fato4.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fatos-im li p {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.fatos-im p.fato-ativo {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}

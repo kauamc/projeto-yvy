@@ -1,3 +1,8 @@
 .info-gerais .bandeira-nome {
     grid-area: 1 / 1 / span 2 / -1;
 }
+
+.fatos-im li {
+    overflow: initial;
+    aspect-ratio: initial;
+}
