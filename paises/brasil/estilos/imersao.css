@@ -159,8 +159,10 @@
 }
 
 .fatos-im h2 {
-    color: var(--texto-cor-alt);
-    align-self: flex-start;
+    width: 100%;
+    color: #009440;
+    background-color: #FFCB00;
+    padding: .5em;
 }
 
 .clique {
