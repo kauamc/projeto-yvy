@@ -1,0 +1,43 @@
+/* Passado */
+
+.passado-im-art {
+    display: grid;
+    grid-template: repeat(4, auto) / 1fr auto; 
+}
+
+.passado-im figure {
+    grid-area: 1 / 2 / -1 / -1;
+    max-width: 600px;
+}
+
+/* Destaques */
+
+.destaques-im {
+    padding: 1em;
+}
+
+.destaques-im h2 {
+    padding: 0 .5em;
+}
+
+.destaques-im ul {
+    display: grid;
+    grid-template: auto auto / 1fr 1fr;
+    gap: 1em;
+}
+
+.destaques-im li {
+    margin: 0;
+}
+
+/* Fatos */
+
+.fatos-im ul {
+    flex-flow: row wrap;
+    max-width: 900px;
+    justify-content: center;
+}
+
+.fatos-im li {
+    flex: 0 0 auto;
+}

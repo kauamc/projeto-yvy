@@ -2,8 +2,7 @@
 
 .subsecao {
     width: 100%;
-    min-height: 100dvh;
-    padding: 15px;
+    padding: 1em;
     display: flex;
     flex-flow: column;
     gap: 1em;
@@ -13,7 +12,7 @@
 .subsecao figure {
     display: flex;
     flex-direction: column;
-    gap: .5em;
+    gap: .3em;
 }
 
 .subsecao figure img {
@@ -34,13 +33,14 @@
 /* Introdução */
 
 .introducao-im {
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: var(--texto-cor-alt);
     box-shadow: inset 0 3px 8px 3px rgba(0, 0, 0, 0.314);
     background: url(../imagens/introducao-bg.jpg);
-    background-position: bottom center;
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -53,14 +53,32 @@
 
 .introducao-im p {
     text-align: center;
+    max-width: 600px;
 }
 
 /* Passado */
 
 .passado-im {
-    background: url(../imagens/passado-bg.jpg);
+    /* background: url(../imagens/passado-bg.jpg); */
+    background-color: #f8e9ac;
     background-size: cover;
     background-position: top right;
+}
+
+.passado-im > article {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.passado-im-art {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.passado-im article p {
+    text-align: justify;
 }
 
 /* Destaques */
@@ -68,7 +86,6 @@
 .destaques-im {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
     padding: .5em calc(15px + .5em);
     background-color: #009440;
 }
@@ -159,10 +176,10 @@
 }
 
 .fatos-im h2 {
-    width: 100%;
     color: #009440;
     background-color: #FFCB00;
     padding: .5em;
+    text-align: center;
 }
 
 .clique {
@@ -195,7 +212,7 @@
 .fatos-im li {
     max-width: 400px;
     background-color: var(--texto-cor-alt);
-    border: 2px solid #FFCB00;
+    border: 3px solid #FFCB00;
     border-radius: 16px;
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.4);
     overflow: hidden;
