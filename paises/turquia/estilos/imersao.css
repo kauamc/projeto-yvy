@@ -1,0 +1,141 @@
+/* Seção Imersiva */
+
+.subsecao {
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    flex-flow: column;
+    gap: 1em;
+    font-size: 1.2rem;
+}
+
+.subsecao figure {
+    display: flex;
+    flex-direction: column;
+    gap: .3em;
+}
+
+.subsecao figure img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.345);
+}
+
+.subsecao figure figcaption {
+    text-align: right;
+    font-size: 1rem;
+}
+
+.subsecao ul {
+    list-style-position: inside;
+}
+
+/* Introdução */
+
+.introducao-im {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(../imagens/introducao-bg.jpg);
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
+    color: var(--texto-cor-alt);
+}
+
+.introducao-im h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.introducao-im p {
+    text-align: center;
+    max-width: 600px;
+}
+
+/* Passado */
+
+.passado-im h2 {
+    color: #A91101;
+}
+
+.passado-im p {
+    text-align: justify;
+}
+
+/* Destaques */
+
+.destaques-im {
+    background-color: #A91101;
+    color: var(--texto-cor-alt);
+}
+
+.destaques-im ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.destaques-im ul li:nth-child(odd) > p {
+    text-align: left;
+    border-left: 2px solid var(--texto-cor-alt);
+    padding-left: .5em;
+}
+
+.destaques-im ul li:nth-child(even) > p {
+    text-align: right;
+    border-right: 2px solid var(--texto-cor-alt);
+    padding-right: .5em;
+}
+
+/* Fatos */
+
+.fatos-im ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.fatos-im li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    min-height: 100px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: .5em;
+    transition: height 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+    overflow: hidden;
+}
+
+.fatos-im li:nth-child(1) {
+    background: url(../imagens/fato1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.fatos-im li > p {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transform: translateY(10px);
+    transition: opacity .3s ease, transform .3s ease, max-height .4s ease;
+
+    color: var(--texto-cor-alt);
+    padding: .3em;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+}
+
+.fato-li-ativo {
+    height: 400px;
+}
+
+.fatos-im p.fato-ativo {
+    opacity: 1;
+    max-height: initial;
+    transform: translateY(0);
+    transition-delay: 0.15s;
+}
