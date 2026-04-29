@@ -91,25 +91,28 @@
 
 /* Fatos */
 
-.fatos-im ul {
-    list-style: none;
+.fatos-im-container {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    gap: 1em;
+    width: 100%;
+}
+
+.fatos-im ul {
+    list-style: none;
     gap: 1em;
 }
 
 .fatos-im li {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 100%;
-    min-height: 100px;
-    cursor: pointer;
-    border-radius: 12px;
     padding: .5em;
-    box-shadow: inset 0 0 3px 2px rgba(0, 0, 0, 0.4);
-    transition: height 0.5s cubic-bezier(0.22, 1, 0.36, 1);
-    overflow: hidden;
+}
+
+.fatos-im li > p {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: .5em;
+    color: var(--texto-cor-alt);
+    border-radius: 6px;
 }
 
 .fatos-im li:nth-child(1) {
@@ -134,28 +137,4 @@
     background: url(../imagens/fato4.jpg);
     background-position: center center;
     background-size: cover;
-}
-
-.fatos-im li > p {
-    opacity: 0;
-    max-height: 0;
-    overflow: hidden;
-    transform: translateY(10px);
-    transition: opacity .3s ease, transform .3s ease, max-height .4s ease;
-
-    color: var(--texto-cor-alt);
-    padding: .3em;
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 8px;
-}
-
-.fato-li-ativo {
-    height: 400px;
-}
-
-.fatos-im p.fato-ativo {
-    opacity: 1;
-    max-height: initial;
-    transform: translateY(0);
-    transition-delay: 0.15s;
 }

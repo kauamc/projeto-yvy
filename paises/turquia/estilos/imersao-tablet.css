@@ -1,0 +1,12 @@
+/* Fatos */
+
+.fatos-im ul {
+    display: grid;
+    grid-template: auto auto / 1fr 1fr;
+}
+
+.fatos-im ul > li {
+    height: 400px;
+    cursor: initial;
+    align-items: flex-start;
+}

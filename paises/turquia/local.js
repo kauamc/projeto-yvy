@@ -1,10 +1,9 @@
 const fatos = document.querySelectorAll('.fatos-im li')
 
-fatos.forEach(fato => {
-    fato.addEventListener('click', () => {
-        fato.classList.toggle('fato-li-ativo')
-
-        const p = fato.querySelector('p')
-        p.classList.toggle('fato-ativo')
-    })
+fatos.forEach(fato => { 
+        fato.addEventListener('click', () => {
+            if (window.innerWidth <= 800) {
+                fato.classList.toggle('fato-ativo')
+            }
+        })
 })
