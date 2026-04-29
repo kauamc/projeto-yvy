@@ -9,11 +9,13 @@
     display: flex;
     align-items: flex-end;
     height: 100px;
+    transition: height .3s ease;
 }
 
 .fatos-im li > p {
     opacity: 0;
     max-height: 0;
+    transition: opacity .2s ease;
 }
 
 .fatos-im li.fato-ativo {
@@ -23,4 +25,5 @@
 .fatos-im li.fato-ativo > p {
     opacity: 1;
     max-height: 300px;
+    transition-delay: 0.15s;
 }
