@@ -55,12 +55,34 @@
 
 /* Passado */
 
+.passado-im {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.passado-im h2 {
+    width: 100%;
+    max-width: 1360px;
+}
+
+.passado-im-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
 .passado-im h2 {
     color: #A91101;
 }
 
 .passado-im p {
     text-align: justify;
+}
+
+.passado-im figure {
+    max-width: 800px;
 }
 
 /* Destaques */

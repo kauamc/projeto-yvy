@@ -1,3 +1,19 @@
+/* Passado */
+
+.passado-im-container {
+    max-width: 1360px;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.passado-im-container > div {
+    display: flex;
+    flex-flow: column;
+    gap: 1em;
+    flex: 1 0 400px;
+}
+
 /* Fatos */
 
 .fatos-im ul {
