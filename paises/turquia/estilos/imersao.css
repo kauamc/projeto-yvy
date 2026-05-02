@@ -73,6 +73,12 @@
     gap: 1em;
 }
 
+.passado-im-container > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
 .passado-im h2 {
     color: #A91101;
 }
@@ -90,6 +96,15 @@
 .destaques-im {
     background-color: #A91101;
     color: var(--texto-cor-alt);
+    width: 100%;
+}
+
+.destaques-im-containe {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .destaques-im ul {
@@ -113,12 +128,27 @@
 
 /* Fatos */
 
+.fatos-im {
+    width: 100%;
+}
+
 .fatos-im-container {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     gap: 1em;
-    width: 100%;
+    max-width: 1360px;
+}
+
+.fatos-im-container > div {
+    display: flex;
+    align-items: center;
+    gap: .25em;
+}
+
+.fatos-im-container > div > img {
+    width: 35px;
+    height: 100%;
 }
 
 .fatos-im ul {
@@ -149,16 +179,19 @@
     background: url(../imagens/fato2.jpg);
     background-position: center center;
     background-size: cover;
+    z-index: 2;
 }
 
 .fatos-im li:nth-child(3) {
     background: url(../imagens/fato3.jpg);
     background-position: center center;
     background-size: cover;
+    z-index: 3;
 }
 
 .fatos-im li:nth-child(4) {
     background: url(../imagens/fato4.jpg);
     background-position: center center;
     background-size: cover;
+    z-index: 4;
 }
