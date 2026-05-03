@@ -84,7 +84,11 @@ function preencherDados(pais) {
     bandeira.innerHTML = `<img src="bandeira.png" alt="Bandeira de ${pais.nome}">`
     nome.innerHTML = pais.nome
     capital.innerHTML = pais.capital
-    localizacao.innerHTML = pais.localizacao
+    if (pais.sublocalizacao) {
+        localizacao.innerHTML = `${pais.sublocalizacao}, ${pais.localizacao}`
+    } else {
+        localizacao.innerHTML = `${pais.localizacao}`
+    }
     idioma.innerHTML = pais.idioma
     populacao.innerHTML = pais.populacao.toLocaleString('pt-BR')
     area.innerHTML = `${pais.area.toLocaleString('pt-BR')} km²`
@@ -92,7 +96,11 @@ function preencherDados(pais) {
     moedaSimbolo.innerHTML = pais.moeda.simbolo
     moedaIso.innerHTML = pais.moeda.iso
     if (pais.lema) {
-        lema.innerHTML = `<i>"${pais.lema}"</i>`;
+        if (pais.lemaPT) {
+            lema.innerHTML = `<i>"${pais.lema}" (${pais.lemaPT})</i>`
+        } else {
+            lema.innerHTML = `<i>"${pais.lema}"</i>`;
+        }
     } else {
         lema.innerHTML = `País sem lema oficial`;
     }
