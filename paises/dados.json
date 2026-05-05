@@ -351,6 +351,33 @@
         "principalReligiao": "Cristianismo"
     },
     {
+        "id": "cn",
+        "nome": "China",
+        "capital": "Pequim",
+        "localizacao": "Ásia",
+        "sublocalizacao": "Ásia Oriental",
+        "idioma": "Mandarim",
+        "populacao": 1415000000,
+        "populacaoAno": 2026,
+        "area": 9596961,
+        "moeda": {
+            "nome": "Renminbi (Yuan)",
+            "simbolo": "¥",
+            "iso": "CNY"
+        },
+        "lema": null,
+        "lemaPT": null,
+        "nomeCompleto": "República Popular da China",
+        "idh": 0.788,
+        "idhAno": 2022,
+        "pib": 20120000000000,
+        "pibAno": 2026,
+        "sisPolitico": "República Socialista Unicameral (Estado de partido único)",
+        "sisEconomico": "Economia de mercado socialista",
+        "ddi": 86,
+        "principalReligiao": "Budismo, Taoísmo e Confucionismo (Ateísmo oficial)"
+    },
+    {
         "id": "co",
         "nome": "Colômbia",
         "capital": "Bogotá",
@@ -403,6 +430,33 @@
         "sisEconomico": "Economia baseada em recursos",
         "ddi": 593,
         "principalReligiao": "Cristianismo (Catolicismo)"
+    },
+    {
+        "id": "us",
+        "nome": "Estados Unidos",
+        "capital": "Washington, D.C.",
+        "localizacao": "América",
+        "sublocalizacao": "América do Norte",
+        "idioma": "Inglês",
+        "populacao": 344500000,
+        "populacaoAno": 2026,
+        "area": 9833517,
+        "moeda": {
+            "nome": "Dólar Americano",
+            "simbolo": "$",
+            "iso": "USD"
+        },
+        "lema": "In God We Trust",
+        "lemaPT": "Em Deus confiamos",
+        "nomeCompleto": "Estados Unidos da América",
+        "idh": 0.927,
+        "idhAno": 2022,
+        "pib": 29800000000000,
+        "pibAno": 2026,
+        "sisPolitico": "República Federal Constitucional Presidencialista",
+        "sisEconomico": "Economia de mercado capitalista",
+        "ddi": 1,
+        "principalReligiao": "Cristianismo (Protestantismo e Catolicismo)"
     },
     {
         "id": "et",
@@ -484,6 +538,33 @@
         "sisEconomico": "Economia baseada em recursos (Petróleo)",
         "ddi": 592,
         "principalReligiao": "Cristianismo (maioria), Hinduísmo e Islamismo"
+    },
+    {
+        "id": "in",
+        "nome": "Índia",
+        "capital": "Nova Déli",
+        "localizacao": "Ásia",
+        "sublocalizacao": "Sul da Ásia",
+        "idioma": "Hindi e Inglês",
+        "populacao": 1450000000,
+        "populacaoAno": 2026,
+        "area": 3287263,
+        "moeda": {
+            "nome": "Rupia Indiana",
+            "simbolo": "₹",
+            "iso": "INR"
+        },
+        "lema": "Satyameva Jayate",
+        "lemaPT": "A verdade sozinha triunfa",
+        "nomeCompleto": "República da Índia",
+        "idh": 0.644,
+        "idhAno": 2022,
+        "pib": 4650000000000,
+        "pibAno": 2026,
+        "sisPolitico": "República Federal Parlamentar",
+        "sisEconomico": "Economia de mercado em desenvolvimento",
+        "ddi": 91,
+        "principalReligiao": "Hinduísmo"
     },
     {
         "id": "it",
