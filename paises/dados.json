@@ -405,6 +405,33 @@
         "principalReligiao": "Cristianismo"
     },
     {
+        "id": "kr",
+        "nome": "Coreia do Sul",
+        "capital": "Seul",
+        "localizacao": "Ásia",
+        "sublocalizacao": "Ásia Oriental",
+        "idioma": "Coreano",
+        "populacao": 51750000,
+        "populacaoAno": 2026,
+        "area": 100210,
+        "moeda": {
+            "nome": "Won Sul-Coreano",
+            "simbolo": "₩",
+            "iso": "KRW"
+        },
+        "lema": "Hongik Ingan",
+        "lemaPT": "Beneficiar amplamente a humanidade",
+        "nomeCompleto": "República da Coreia",
+        "idh": 0.929,
+        "idhAno": 2022,
+        "pib": 1920000000000,
+        "pibAno": 2026,
+        "sisPolitico": "República Unitária Presidencialista",
+        "sisEconomico": "Economia de mercado avançada",
+        "ddi": 82,
+        "principalReligiao": "Irreligião (maioria), Cristianismo e Budismo"
+    },
+    {
         "id": "ec",
         "nome": "Equador",
         "capital": "Quito",
@@ -594,6 +621,33 @@
         "principalReligiao": "Hinduísmo"
     },
     {
+        "id": "id",
+        "nome": "Indonésia",
+        "capital": "Jacarta (atual), Nusantara (futura capital)",
+        "localizacao": "Ásia",
+        "sublocalizacao": "Sudeste Asiático",
+        "idioma": "Indonésio (Bahasa Indonesia)",
+        "populacao": 284500000,
+        "populacaoAno": 2026,
+        "area": 1904569,
+        "moeda": {
+            "nome": "Rupia Indonésia",
+            "simbolo": "Rp",
+            "iso": "IDR"
+        },
+        "lema": "Bhinneka Tunggal Ika",
+        "lemaPT": "Unidade na Diversidade",
+        "nomeCompleto": "República da Indonésia",
+        "idh": 0.713,
+        "idhAno": 2022,
+        "pib": 1780000000000,
+        "pibAno": 2026,
+        "sisPolitico": "República Unitária Presidencialista",
+        "sisEconomico": "Economia de mercado emergente",
+        "ddi": 62,
+        "principalReligiao": "Islamismo"
+    },
+    {
         "id": "it",
         "nome": "Itália",
         "capital": "Roma",
@@ -729,6 +783,33 @@
         "principalReligiao": "Hinduísmo"
     },
     {
+        "id": "nl",
+        "nome": "Países Baixos",
+        "capital": "Amsterdã (capital), Haia (sede do governo)",
+        "localizacao": "Europa",
+        "sublocalizacao": "Europa Ocidental",
+        "idioma": "Neerlandês",
+        "populacao": 18150000,
+        "populacaoAno": 2026,
+        "area": 41850,
+        "moeda": {
+            "nome": "Euro",
+            "simbolo": "€",
+            "iso": "EUR"
+        },
+        "lema": "Je maintiendrai",
+        "lemaPT": "Eu manterei",
+        "nomeCompleto": "Reino dos Países Baixos",
+        "idh": 0.946,
+        "idhAno": 2022,
+        "pib": 1210000000000,
+        "pibAno": 2026,
+        "sisPolitico": "Monarquia Constitucional Parlamentar Unitária",
+        "sisEconomico": "Economia de mercado aberta e desenvolvida",
+        "ddi": 31,
+        "principalReligiao": "Secularismo (maioria), Cristianismo (Catolicismo e Protestantismo)"
+    },
+    {
         "id": "py",
         "nome": "Paraguai",
         "capital": "Assunção",
@@ -862,6 +943,33 @@
         "sisEconomico": "Economia de mercado",
         "ddi": 7,
         "principalReligiao": "Cristianismo (Ortodoxia)"
+    },
+    {
+        "id": "ch",
+        "nome": "Suíça",
+        "capital": "Berna (Cidade Federal)",
+        "localizacao": "Europa",
+        "sublocalizacao": "Europa Ocidental",
+        "idioma": "Alemão, Francês, Italiano e Romanche",
+        "populacao": 9050000,
+        "populacaoAno": 2026,
+        "area": 41285,
+        "moeda": {
+            "nome": "Franco Suíço",
+            "simbolo": "CHF",
+            "iso": "CHF"
+        },
+        "lema": "Unus pro omnibus, omnes pro uno",
+        "lemaPT": "Um por todos, todos por um",
+        "nomeCompleto": "Confederação Suíça",
+        "idh": 0.967,
+        "idhAno": 2022,
+        "pib": 945000000000,
+        "pibAno": 2026,
+        "sisPolitico": "República Federal Parlamentar (Diretorial)",
+        "sisEconomico": "Economia de mercado altamente desenvolvida",
+        "ddi": 41,
+        "principalReligiao": "Cristianismo (Catolicismo e Protestantismo)"
     },
     {
         "id": "sr",
