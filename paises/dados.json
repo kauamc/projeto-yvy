@@ -540,6 +540,33 @@
         "principalReligiao": "Cristianismo (Ortodoxia Etíope)"
     },
     {
+        "id": "fj",
+        "nome": "Fiji",
+        "capital": "Suva",
+        "localizacao": "Oceania",
+        "sublocalizacao": "Melanésia",
+        "idioma": "Inglês, Fijiano e Hindi fijiano",
+        "populacao": 945000,
+        "populacaoAno": 2026,
+        "area": 18274,
+        "moeda": {
+            "nome": "Dólar de Fiji",
+            "simbolo": "$",
+            "iso": "FJD"
+        },
+        "lema": "Rerevaka na Kalou ka Doka na Tui",
+        "lemaPT": "Teme a Deus e honra o Rei",
+        "nomeCompleto": "República de Fiji",
+        "idh": 0.729,
+        "idhAno": 2022,
+        "pib": 5800000000,
+        "pibAno": 2026,
+        "sisPolitico": "República Parlamentarista Unitária",
+        "sisEconomico": "Economia de mercado em desenvolvimento",
+        "ddi": 679,
+        "principalReligiao": "Cristianismo (maioria) e Hinduísmo"
+    },
+    {
         "id": "fr",
         "nome": "França",
         "capital": "Paris",
@@ -592,6 +619,33 @@
         "sisEconomico": "Economia baseada em recursos (Petróleo)",
         "ddi": 592,
         "principalReligiao": "Cristianismo (maioria), Hinduísmo e Islamismo"
+    },
+    {
+        "id": "sb",
+        "nome": "Ilhas Salomão",
+        "capital": "Honiara",
+        "localizacao": "Oceania",
+        "sublocalizacao": "Melanésia",
+        "idioma": "Inglês",
+        "populacao": 780000,
+        "populacaoAno": 2026,
+        "area": 28896,
+        "moeda": {
+            "nome": "Dólar das Ilhas Salomão",
+            "simbolo": "$",
+            "iso": "SBD"
+        },
+        "lema": "To Lead is to Serve",
+        "lemaPT": "Liderar é servir",
+        "nomeCompleto": "Ilhas Salomão",
+        "idh": 0.562,
+        "idhAno": 2022,
+        "pib": 1750000000,
+        "pibAno": 2026,
+        "sisPolitico": "Monarquia Constitucional Parlamentar Unitária",
+        "sisEconomico": "Economia de mercado baseada na agricultura e pesca",
+        "ddi": 677,
+        "principalReligiao": "Cristianismo"
     },
     {
         "id": "in",
@@ -781,6 +835,33 @@
         "sisEconomico": "Economia de mercado",
         "ddi": 977,
         "principalReligiao": "Hinduísmo"
+    },
+    {
+        "id": "nz",
+        "nome": "Nova Zelândia",
+        "capital": "Wellington",
+        "localizacao": "Oceania",
+        "sublocalizacao": null,
+        "idioma": "Inglês, Maori e Língua de Sinais Neozelandesa",
+        "populacao": 5350000,
+        "populacaoAno": 2026,
+        "area": 268021,
+        "moeda": {
+            "nome": "Dólar da Nova Zelândia",
+            "simbolo": "$",
+            "iso": "NZD"
+        },
+        "lema": null,
+        "lemaPT": null,
+        "nomeCompleto": "Nova Zelândia",
+        "idh": 0.939,
+        "idhAno": 2022,
+        "pib": 275000000000,
+        "pibAno": 2026,
+        "sisPolitico": "Monarquia Constitucional Parlamentar Unitária",
+        "sisEconomico": "Economia de mercado industrializada",
+        "ddi": 64,
+        "principalReligiao": "Irreligião (maioria) e Cristianismo"
     },
     {
         "id": "nl",
